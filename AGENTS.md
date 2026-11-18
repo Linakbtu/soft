@@ -64,7 +64,7 @@ npm run build
 
 - Every behavior change needs a test that covers it.
 - **Never delete or weaken a test to make it pass.** If a test must change, say which test, why, and what the new assertion checks.
-- The baseline is all tests must pass (see npm test).
+- All tests must pass (run npm test); do not rely on a fixed test count.
 
 ## Allowed files
 
