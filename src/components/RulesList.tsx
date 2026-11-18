@@ -13,7 +13,7 @@ const rules: string[] = [
 export function RulesList() {
   return (
     <section className="bg-white/60 rounded-2xl border border-slate-200 p-4 sm:p-5">
-      <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wide mb-3">
+      <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wide mb-3">
         Booking Rules
       </h3>
       <ul className="space-y-2 text-sm text-slate-600">

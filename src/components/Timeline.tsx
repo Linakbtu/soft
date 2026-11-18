@@ -21,7 +21,7 @@ export function Timeline({ bookings }: Props) {
 
   return (
     <div className="mt-4">
-      <div className="flex items-center justify-between text-[10px] text-slate-400 mb-1">
+      <div className="flex items-center justify-between text-[10px] text-slate-500 mb-1">
         <span>{toHHMM(RANGE_START)}</span>
         <span>{toHHMM((RANGE_START + RANGE_END) / 2)}</span>
         <span>{toHHMM(RANGE_END)}</span>

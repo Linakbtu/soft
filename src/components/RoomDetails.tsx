@@ -27,12 +27,12 @@ export function RoomDetails({ room }: Props) {
       </div>
 
       <div className="mt-4 pt-4 border-t border-slate-100">
-        <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">
+        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-2">
           Existing Bookings
         </p>
         <div className="flex flex-wrap gap-2">
           {room.bookings.length === 0 ? (
-            <span className="text-sm text-slate-400">No existing bookings</span>
+            <span className="text-sm text-slate-500">No existing bookings</span>
           ) : (
             room.bookings.map((b, i) => (
               <span

@@ -64,7 +64,7 @@ npm run build
 
 - Every behavior change needs a test that covers it.
 - **Never delete or weaken a test to make it pass.** If a test must change, say which test, why, and what the new assertion checks.
-- The baseline is 59 tests passing across 5 files.
+- The baseline is all tests must pass (see npm test).
 
 ## Allowed files
 

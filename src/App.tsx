@@ -142,7 +142,7 @@ function App() {
         <RulesList />
       </main>
 
-      <footer className="text-center py-4 text-xs text-slate-400">
+      <footer className="text-center py-4 text-xs text-slate-500">
         Prototype — checks availability only, does not create bookings.
       </footer>
     </div>
