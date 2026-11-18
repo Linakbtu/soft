@@ -1,4 +1,4 @@
-export const NOW_MIN = 540; // 09:00
+export const NOW_MIN = 600; // 09:00
 
 export const EQUIPMENT = [
   'projector',
