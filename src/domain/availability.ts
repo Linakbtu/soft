@@ -2,12 +2,11 @@ import { toHHMM } from './time';
 
 export const MAX_DURATION = 120;
 
-export type Booking = { start: number; end: number };
+import type { Booking, Room as CatalogRoom } from '@/data/rooms';
 
-export type Room = {
-  blocked: boolean;
-  bookings: readonly Booking[];
-};
+export type { Booking };
+// Single source of truth: the rule needs only these two fields of a catalog room.
+export type Room = Pick<CatalogRoom, 'blocked' | 'bookings'>;
 
 export type Result =
   | { kind: 'available' }
