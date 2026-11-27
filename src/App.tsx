@@ -126,8 +126,16 @@ function App() {
         <TimeForm
           startTime={startTime}
           endTime={endTime}
-          onStartTimeChange={(e) => setStartTime(e.target.value)}
-          onEndTimeChange={(e) => setEndTime(e.target.value)}
+          onStartTimeChange={(e) => {
+            setStartTime(e.target.value);
+            setCheckedRange(null);
+            setSubmitted(false);
+          }}
+          onEndTimeChange={(e) => {
+            setEndTime(e.target.value);
+            setCheckedRange(null);
+            setSubmitted(false);
+          }}
           onSubmit={handleCheck}
           onReset={handleReset}
           submitted={submitted}
